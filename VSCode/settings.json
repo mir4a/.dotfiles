@@ -1,0 +1,46 @@
+{
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "all",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "off",
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    // "editor.formatOnSave": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[elm]": {
+        "editor.defaultFormatter": "elmTooling.elm-ls-vscode"
+    },
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    // "eslint.format.enable": true,
+    "eslint.packageManager": "yarn",
+    // "emmet.triggerExpansionOnTab": true,
+    "emmet.showAbbreviationSuggestions": false,
+    "workbench.editor.showTabs": true,
+    "zenMode.hideLineNumbers": false,
+    "java.semanticHighlighting.enabled": true,
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Palenight (Mild Contrast)",
+    "java.project.importHint": false,
+}
+
