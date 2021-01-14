@@ -7,4 +7,4 @@ code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension whizkydee.material-palenight-theme
 code --install-extension sonarsource.sonarlint-vscode
 code --install-extension henriiik.vscode-sort
-code --install-extension visualstudioexptteam.vscodeintel
+code --install-extension visualstudioexptteam.vscodeintellicode
