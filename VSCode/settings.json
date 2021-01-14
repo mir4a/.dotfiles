@@ -40,7 +40,7 @@
     "zenMode.hideLineNumbers": false,
     "java.semanticHighlighting.enabled": true,
     "workbench.statusBar.visible": true,
-    "workbench.colorTheme": "Palenight (Mild Contrast)",
+    "workbench.colorTheme": "Palenight Theme",
     "java.project.importHint": false,
 }
 

@@ -28,3 +28,9 @@ source ~/.dotfiles/setup-macos.sh
 source ~/.dotfiles/setup-symlinks.sh
 ```
 
+6. Setup VSCode.
+
+```bash
+source ~/.dotfiles/setup-vscode.sh
+```
+
