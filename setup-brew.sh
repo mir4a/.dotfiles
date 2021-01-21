@@ -9,6 +9,8 @@ brew upgrade
 # Add some casks
 brew tap aws/tap
 
+brew install --cask iterm2
+
 # Install CLI tools
 brew install awscli
 brew install git
