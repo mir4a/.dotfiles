@@ -74,7 +74,8 @@ plugins=(
   gradle
   node
   npm
-  npx
+  # having issues with npx plugin
+  # npx
   nvm
   osx
   themes
@@ -149,10 +150,11 @@ export PATH="/usr/local/opt/ruby@2.7/bin:$PATH"
 export GEM_HOME=$HOME/.gem/ruby/2.7.0
 export PATH=$GEM_HOME/bin:$PATH
 
-export ANDROID_HOME=/Users/miroslav.martynov/Library/Android/sdk
-export PATH=$ANDROID_HOME/platform-tools:$PATH
-export PATH=$ANDROID_HOME/tools:$PATH
-
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export PATH=$HOME/Library/Python/2.7/bin:$PATH
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

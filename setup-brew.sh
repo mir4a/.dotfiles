@@ -24,10 +24,21 @@ brew install yarn
 brew install --cask typora
 
 # Mobile
+brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
 brew install --cask android-studio
 brew install --cask android-platform-tools
+brew install --cask android-sdk
 brew install cocoapods
 brew install scrcpy
+brew install node
+brew install watchman
+
+# Browsers
+brew install --cask opera
+brew install --cask google-chrome
+brew install --cask microsoft-edge
+brew install --cask firefox
+brew install --cask brave-browser
 
 # Video
 brew install ffmpeg

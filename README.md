@@ -41,3 +41,6 @@ source ~/.dotfiles/setup-symlinks.sh
 source ~/.dotfiles/setup-vscode.sh
 ```
 
+8. iTerm2 fine tune
+
+- key bindings https://superuser.com/a/1157575

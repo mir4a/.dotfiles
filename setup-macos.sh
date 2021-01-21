@@ -17,7 +17,7 @@ defaults -currentHost write com.apple.screensaver idleTime -int 0
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # System Preferences > Dock > Size:
-defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock tilesize -int 52
 
 # System Preferences > Dock > Magnification:
 defaults write com.apple.dock magnification -bool false
@@ -51,10 +51,10 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # System Preferences > Keyboard >
-defaults write NSGlobalDomain KeyRepeat -int 2
+defaults write NSGlobalDomain KeyRepeat -int 5
 
 # System Preferences > Keyboard >
-defaults write NSGlobalDomain InitialKeyRepeat -int 15
+defaults write NSGlobalDomain InitialKeyRepeat -int 20
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
