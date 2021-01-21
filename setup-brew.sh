@@ -22,6 +22,8 @@ brew install yarn
 brew install --cask typora
 
 # Mobile
+brew install --cask android-studio
+brew install --cask android-platform-tools
 brew install cocoapods
 brew install scrcpy
 
