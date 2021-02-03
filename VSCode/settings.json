@@ -9,7 +9,7 @@
     "editor.codeActionsOnSave": {
         "source.fixAll": true
     },
-    // "editor.formatOnSave": true,
+    "editor.formatOnSave": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
@@ -32,15 +32,13 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    // "eslint.format.enable": true,
+    "eslint.format.enable": true,
     "eslint.packageManager": "yarn",
-    // "emmet.triggerExpansionOnTab": true,
     "emmet.showAbbreviationSuggestions": false,
     "workbench.editor.showTabs": true,
     "zenMode.hideLineNumbers": false,
-    "java.semanticHighlighting.enabled": true,
     "workbench.statusBar.visible": true,
     "workbench.colorTheme": "Palenight Theme",
-    "java.project.importHint": false,
+    "editor.maxTokenizationLineLength": 2000,
 }
 
