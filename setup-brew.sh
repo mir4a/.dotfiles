@@ -9,13 +9,15 @@ brew upgrade
 # Add some casks
 brew tap aws/tap
 
-brew install --cask iterm2
-
 # Install CLI tools
+brew install --cask iterm2
 brew install awscli
 brew install git
 brew install nvm
 brew install yarn
+brew install docker
+brew install imageoptim
+brew install insomnia
 
 # Site generator
 # brew install hugo
@@ -52,12 +54,12 @@ brew install redis
 brew install sqlite
 brew install mongodb
 
-# Install CLI tools
-brew install docker
-brew install imageoptim
-brew install insomnia
+# Communication
 brew install skype
 brew install slack
+brew install --cask microsoft-teams
+
+# Editor
 brew install visual-studio-code
 
 # Remove outdated versions from the cellar.
