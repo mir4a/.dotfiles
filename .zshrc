@@ -85,6 +85,17 @@ plugins=(
   zsh_reload
 )
 
+# ZSH history
+HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
+SAVEHIST=1000
+HISTSIZE=1000
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_IGNORE_DUPS
+setopt HIST_FIND_NO_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt SHARE_HISTORY
+setopt APPEND_HISTORY
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -101,16 +112,10 @@ chpwd () {
   fi;
 }
 
-# ZSH history
-HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
-SAVEHIST=1000
-HISTSIZE=1000
-setopt HIST_EXPIRE_DUPS_FIRST
-setopt HIST_IGNORE_DUPS
-setopt HIST_FIND_NO_DUPS
-setopt HIST_REDUCE_BLANKS
-setopt SHARE_HISTORY
-setopt APPEND_HISTORY
+# timestamp
+local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
+PROMPT='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
+RPROMPT="[%D{%f.%m.%Y} %*]"
 
 # why your mac is so slow?
 alias top="top -o vsize"
@@ -142,7 +147,8 @@ alias servephp="echo 'Your cool server is runing on http://localhost:8000/' && o
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias timesheet="~/projects/git-timesheet/git-timesheet.rb"
+# alias timesheet="~/projects/git-timesheet/git-timesheet.rb"
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222'
 
 # ssh-add -K ~/.ssh/id_rsa
 
