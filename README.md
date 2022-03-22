@@ -12,7 +12,7 @@ source ~/.dotfiles/setup-ohmyz.sh
 2. Install brew and stuff.
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mir4a/dotfiles/master/setup-brew.sh)" 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mir4a/.dotfiles/main/setup-brew.sh)"
 ```
 
 3. SSH setup

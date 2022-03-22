@@ -78,11 +78,10 @@ plugins=(
   # having issues with npx plugin
   # npx
   nvm
-  osx
+  macos
   themes
   web-search
   yarn
-  zsh_reload
 )
 
 # ZSH history

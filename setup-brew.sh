@@ -47,12 +47,14 @@ brew install ffmpeg
 
 # Image
 brew install graphicsmagick
+brew install imgproxy
 
 # DB
 brew install postgresql
 brew install redis
 brew install sqlite
 brew install mongodb
+brew install --cask pgadmin4
 
 # Communication
 brew install skype
