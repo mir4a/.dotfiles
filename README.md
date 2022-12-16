@@ -3,6 +3,8 @@
 > Before doing anything, make sure you know what are you doing! Settings applied by this repository are very personal and definitely not for everyone. I suggest to create your own set of dotfiles based on [this repo](https://github.com/pawelgrzybek/dotfiles).
 >
 
+## Minimal setup for a new machine
+
 1. Install ohmyzsh
 
 ```bash
@@ -20,7 +22,7 @@ source ~/.dotfiles/setup-ohmyz.sh
 4. Clone this repo to hidden `.dotfile` directory in your home directory.
 
 ```bash
-git clone git@github.com:mir4a/dotfiles.git ~/.dotfile
+git clone --branch minimal git@github.com:mir4a/dotfiles.git ~/.dotfile
 ```
 
 5. Setup macOS.
