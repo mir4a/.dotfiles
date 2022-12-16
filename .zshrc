@@ -164,3 +164,4 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export PATH=$HOME/Library/Python/2.7/bin:$PATH
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+alias python=/usr/bin/python3

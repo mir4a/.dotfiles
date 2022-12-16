@@ -1,5 +1,4 @@
 {
-    "window.zoomLevel": 0,
     "editor.suggestSelection": "first",
     "editor.renderWhitespace": "all",
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
@@ -40,5 +39,20 @@
     "workbench.statusBar.visible": true,
     "workbench.colorTheme": "Palenight Theme",
     "editor.maxTokenizationLineLength": 2000,
+    "[graphql]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "sonarlint.rules": {
+        "typescript:S125": {
+            "level": "off"
+        }
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    },
 }
 
