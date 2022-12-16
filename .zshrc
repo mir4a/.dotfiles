@@ -69,10 +69,8 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  adb
   colored-man-pages
   git
-  gradle
   node
   npm
   # having issues with npx plugin
@@ -80,7 +78,6 @@ plugins=(
   nvm
   macos
   themes
-  web-search
   yarn
 )
 
@@ -119,8 +116,7 @@ RPROMPT="[%D{%f.%m.%Y} %*]"
 # why your mac is so slow?
 alias top="top -o vsize"
 
-# run a dead simple python server
-alias serve="echo 'Your cool server is runing on http://localhost:8000/' && open http://localhost:8000/ && python -m SimpleHTTPServer 8000"
+# run a dead simple server
 alias servephp="echo 'Your cool server is runing on http://localhost:8000/' && open http://localhost:8000/ && php -S 0.0.0.0:8000 -t ."
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -155,12 +151,6 @@ export PATH="/usr/local/opt/ruby@2.7/bin:$PATH"
 
 export GEM_HOME=$HOME/.gem/ruby/2.7.0
 export PATH=$GEM_HOME/bin:$PATH
-
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export PATH=$HOME/Library/Python/2.7/bin:$PATH
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
