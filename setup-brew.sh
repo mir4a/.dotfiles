@@ -19,8 +19,8 @@ brew install docker
 brew install imageoptim
 brew install insomnia
 
-# Site generator
-# brew install hugo
+# Security
+brew install ykman
 
 # Writing
 brew install --cask typora
