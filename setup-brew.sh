@@ -13,6 +13,10 @@ brew install nvm
 brew install yarn
 brew install node
 
+# Security
+brew install ykman
+brew install gpg-suite
+
 # Browsers
 brew install --cask google-chrome
 brew install --cask firefox
