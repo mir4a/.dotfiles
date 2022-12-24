@@ -21,6 +21,7 @@ brew install insomnia
 
 # Security
 brew install ykman
+brew install gpg-suite
 
 # Writing
 brew install --cask typora
